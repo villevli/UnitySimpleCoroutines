@@ -6,7 +6,10 @@ This has most of the features that Unity's coroutines have but unlike normal cor
 Unfortunately this does not yet support Unity's yield instructions that do not inherit from IEnumerator like WaitForSeconds, WaitForEndOfFrame and AsyncOperation.
 
 ## Installation
-- Copy the contents of this repository or only the *Scripts* folder to your *Assets* folder. Preferably place it in a folder called *SimpleCoroutines*
+There are two ways to install this plugin
+1. Copy the contents of this repository or only the *Scripts* folder to your *Assets* folder. Preferably place it in a folder called *SimpleCoroutines*
+2. *(via Package Manager)* add the following line to *Packages/manifest.json*:
+    - `"com.villevli.simplecoroutines": "https://github.com/villevli/UnitySimpleCoroutines.git",`
 
 ## How To
 Create a `SCoroutineRunner` instance and call the following functions on it:

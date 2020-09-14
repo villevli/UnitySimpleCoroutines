@@ -1,0 +1,6 @@
+{
+    "name": "com.villevli.simplecoroutines",
+    "displayName": "Simple Coroutines",
+    "version": "0.1.0",
+    "description": "An alternative to Unity's Coroutines with no delay when yielding."
+}
